@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Class G per Year</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Web_HW_Style.css">
+
+</head>
+
+<body class="bg-light">
+
+	<nav class="navbar-brand d-block bg-dark text-white">
+  		<a class="navbar-brand ml-4 text-danger" href="Index.html" >
+			<img src="fire_logo_red.png" class="d-inline-block align-top" height="30">
+			<h4 class="d-inline align-bottom">California Wildfires</h4>
+  		</a>
+    		<ul class="nav float-right" >
+		      	<li class="nav-item active">
+        			<a class="nav-link text-danger" href="Index.html">Home <span class="sr-only">(current)</span></a>
+      			</li>
+	      			<li class="nav-item dropdown">
+	        			<a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          			Plots
+	        			</a>
+		        		<div class="dropdown-menu">
+		     		     	<a class="dropdown-item" href="Web_HW_Viz_1.html">Class G Acreage by Year</a>
+				          	<a class="dropdown-item " href="Web_HW_Viz_2.html">Class G Fires per Year</a>
+		    		      	<a class="dropdown-item" href="Web_HW_Viz_3.html">Largest Fire per Year w/ Duration</a>
+		        		 	<a class="dropdown-item" href="Web_HW_Viz_4.html">Largest Fire per Year w/o Duration</a>
+		        		</div>
+	      			</li>
+	      		<li class="nav-item text-danger">
+	        		<a class="nav-link text-danger" href="Web_HW_Comparison.html">Comparisons</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link text-danger" href="Web_HW_Data.html">Data</a>
+	      		</li>
+	    	</ul>
+	</nav>
+<div class="container-fluid row col-md-4"></div>
+<div class="row mt-4">	
+<!-- Explanation -->
+		<div class="col-md-6 ml-3 ml-4 shadow border bg-light text-dark">
+			<h1 class="align-text-center">Frequency of Class G Fires</h1>
+			<!-- <img src="Bokeh_Terrain.png" class="img-fluid" width=60%> -->
+				<img src="Class_G_Freq_Bar.png" class="img-fluid px-2">
+			<div class="row text-wrap">
+				<p class="px-1 py-2">Though the number of acres burned and the amount of large fires are both going up, they are not perfectly correlated.
+			</div>
+		</div>
+		
+
+		<!-- Links to Visualization Pages -->
+		<div class="col-md-4 ml-4 shadow shadow border-2 bg-light text-dark">
+			<h1>Visualizations</h1>
+			<div class='row d-inline col-md-12'>
+			<a href="Web_HW_Viz_1.html" title="Class G Acreage Burned per Year"> 
+				<img src="Class_G_Acreage_Bar.png" class="img-fluid float-left col-md-6 py-2 rounded"> 
+			</a>
+			<a href="Web_HW_Viz_2.html" title="Class G Fires per Year">
+				<img src="Class_G_Freq_Bar.png" class="img-fluid float-right col-md-6 py-2 rounded">
+			</a>
+			</div>
+			<div class='row d-inline col-md-12 py-1'>				
+			<a href="Web_HW_Viz_3.html" title="Largest Fire by Year with Duration">
+				<img src="Largest_FirexYear&Duration.png" class="img-fluid float-left col-md-6 py-2 rounded">
+			</a>
+			<a href="Web_HW_Viz_4.html" title="Largest Fire per Year without Duration">
+				<img src="Largest_FirexYear.png" class="img-fluid float-right col-md-6 py-2 rounded">
+			</a>
+			</div>
+		</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
